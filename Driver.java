@@ -33,13 +33,13 @@ public class Driver {
         System.out.print("Is Available (true/false): ");
         this.available = Boolean.parseBoolean(sc.nextLine());
 
-        System.out.print("Contact Number: ");
+        System.out.print("Contact Number(10 digits): ");
         this.contact = sc.nextLine();
 
         System.out.print("Rating (0.0 to 5.0): ");
         this.rating = Double.parseDouble(sc.nextLine());
 
-        System.out.print("License Number: ");
+        System.out.print("License Number(enter the valid): ");
         this.license = sc.nextLine();
 
         System.out.print("Years of Experience: ");

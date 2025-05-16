@@ -27,7 +27,7 @@ public class UserDetails {
         }
 
         while (true) {
-            System.out.print("Enter Email: ");
+            System.out.print("Enter Email(valid email) : ");
             email = sc.nextLine();
             if (isValidEmail(email)) break;
             System.out.println("Invalid email format. Please try again.\n");
